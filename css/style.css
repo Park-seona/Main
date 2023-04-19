@@ -51,6 +51,7 @@ header .header_box h1 img {
     top: 12px;
     width: 65px;
     height: 64px;
+    z-index: 10;
 }
 header .header_box h1 img:hover {
     -ms-transform: scale(1.1); /* IE 9 */
@@ -72,6 +73,7 @@ header .header_box ul.gnb>li {
     width: 10%;
     position: relative;
     padding-right: 50px;
+    z-index: 10;
 }
 header .header_box ul.gnb>li>a {
     display: block;
@@ -88,4 +90,21 @@ header .header_box ul.gnb>li:hover>a {
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-color: #9BA695;
+}
+header .header_box .green_box {
+    position: absolute;
+    left: 1005px;
+    top: 0;
+    width: 915px;
+    height: 1080px;
+    background-color: #27483E;
+}
+header .header_box .main_img {
+    position: absolute;
+    left: 127px;
+    top: 65px;
+}
+header .header_box .main_img img {
+    width: 750px;
+    height: 950px;
 }
