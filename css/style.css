@@ -52,11 +52,13 @@ header .header_box h1 img {
     width: 65px;
     height: 64px;
     z-index: 10;
+    /* transition: all 0.5s linear; */
 }
 header .header_box h1 img:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
+    /* transform: rotate(720deg); */
 }
 header nav {
     float: right;
@@ -99,17 +101,27 @@ header .header_box .green_box {
     height: 1080px;
     background-color: #27483E;
 }
+header .header_box .green_box .leaf_img {
+    position: absolute;
+    right: 207px;
+    top: 248px;
+}
 header .header_box .green_box li {
     position: absolute;
-    left: 78px;
-    top: 767px;
+    left: 324px;
+    top: 826px;
     color: #fff;
     font-size: 64px;
 }
-header .header_box .green_box li p {
+header .header_box .green_box p {
+    position: absolute;
+    left: 194px;
+    top: 930px;
+    text-align: center;
+    line-height: 20px;
     color: #fff;
     font-size: 20px;
-    padding-top: 26px;
+    padding-top: 20px;
 }
 header .header_box .main_img {
     position: absolute;
