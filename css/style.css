@@ -83,7 +83,7 @@ header .header_box ul.gnb>li>a {
     height: 25px;
     line-height: 25px;
     font-size: 17px;
-    color: #9BA695;
+    color: #eee;
     box-sizing: border-box;
     border-left: 0;
 }
@@ -91,7 +91,7 @@ header .header_box ul.gnb>li:hover>a {
     font-size: 17px;
     text-decoration: underline;
     text-underline-position: under;
-    text-decoration-color: #9BA695;
+    text-decoration-color: #eee;
 }
 header .header_box .green_box {
     width: 915px;
@@ -179,7 +179,6 @@ header .header_box .port_btn {
     font-size: 16px;
     line-height: 42px;
     color: #fff;
-    /* background: rgba(39, 72, 62, 0.9); */
     background: #203C33;
     border: 2px solid transparent; 
     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
